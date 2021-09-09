@@ -1,4 +1,4 @@
-import { createSlice} from '@reduxjs/toolkit';
+
 import {
     FETCH_CHARACTERS_REQUEST,
     FETCH_CHARACTERS_SUCCESS,

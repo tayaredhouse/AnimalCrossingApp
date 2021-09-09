@@ -7,7 +7,7 @@ export const fetchCharactersRequest = () => {
     }
 }
 
-const fetchCharactersSuccess = users => {
+const fetchCharactersSuccess = characters => {
     return {
         type: FETCH_CHARACTERS_SUCCESS,
         payload: characters
@@ -16,7 +16,7 @@ const fetchCharactersSuccess = users => {
 
 const fetchCharactersFailure = error => {
     return {
-        type: FETCH_USERS_FAILURE,
+        type: FETCH_CHARACTERS_FAILURE,
         payload: error
     }
 }
@@ -24,9 +24,9 @@ const fetchCharactersFailure = error => {
 export const fetchCharacters = () => {
     return (dispatch) => {
         dispatch(fetchCharactersRequest)
-        axios.get('https://acnhapi.com/v1/villagers')
+         axios.get('https://acnhapi.com/v1/villagers')
         .then(response => {
-            const characters = response.data
+            const characters = Object.entries(response.data)
             dispatch(fetchCharactersSuccess(characters))
         })
         .catch(error => {
