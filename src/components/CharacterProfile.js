@@ -14,8 +14,8 @@ function CharacterProfile({fetchCharacters, characterData})  {
     }, [])
 
 
-    const listVillagers = characterData.characters.map((data,indx) =>
-    <CharacterCard key={indx} data={data} />
+    const listVillagers = characterData.characters.map((villager) =>
+    <CharacterCard key={villager.key} data={villager} />
     )
   
     console.log(listVillagers)

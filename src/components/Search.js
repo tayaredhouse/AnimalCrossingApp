@@ -1,9 +1,8 @@
 import React from 'react'
-import {useDispatch} from 'react-redux';
-import { getCharacters } from '../features/character';
+
 
 function Search() {
-    const dispatch = useDispatch();
+
 
 
     return (
