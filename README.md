@@ -7,16 +7,18 @@ It also has a fully functional search bar where you can search by name for your 
 Other things that I implemented was creating a store with Redux to keep track of the data, loading state, and error state to make a better user experience.
 
 
-## API Used
-
-The API used to grab Villager information was used from: http://acnhapi.com/
-
-### Technologies Used
+## Technologies Used
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Other technologies used for this project include Redux, Axios, react-spinners package, and Git.
 
 More on react-spinners at: https://www.npmjs.com/package/react-spinners
+
+
+### API Used
+
+The API used to grab Villager information was used from: http://acnhapi.com/
+
 
 
 
