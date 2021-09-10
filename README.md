@@ -6,6 +6,9 @@ It also has a fully functional search bar where you can search by name for your 
 
 Other things that I implemented was creating a store with Redux to keep track of the data, loading state, and error state to make a better user experience.
 
+# Viewing The Live Site
+
+Please view this on Heroku at: https://animal-crossing-app.herokuapp.com/
 
 ## Technologies Used
 
@@ -13,10 +16,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Other technologies used for this project include Redux, Axios, react-spinners package, and Git.
 
 More on react-spinners at: https://www.npmjs.com/package/react-spinners
-
-## Viewing the live site
-
-Please view this on Heroku at: https://animal-crossing-app.herokuapp.com/
 
 
 ### API Used
