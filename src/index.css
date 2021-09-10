@@ -1,0 +1,88 @@
+@font-face { font-family: 'Schoolbell', cursive;
+             font-family: 'Open Sans', sans-serif;
+    src: ('https://fonts.googleapis.com/css2?family=Open+Sans&family=Schoolbell&display=swap');
+}
+
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content:center;
+    background-color: darkturquoise;
+  
+}
+
+h1 {
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    color:darkturquoise;
+    margin: 5%;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: space-between;
+    margin-top: 50px;
+  
+}
+.cardcontainer {
+        background-color:darkturquoise;
+        color:white;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        min-width: 300px;
+        border-radius: 9px;
+        box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+        margin: 10px;
+}
+
+h3{
+    font-family: 'Schoolbell', cursive;
+    font-size: 2.3em;
+    font-weight:lighter;
+    line-height: .25em;
+}
+
+p   {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    }
+
+.imgcontainer img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.info {
+    line-height: 1rem;
+}
+
+.loading {
+    display: flex;
+    align-content:center;
+    justify-content:center;
+    font-family: 'schoolbell', cursive;
+    color:darkturquoise;
+    font-size: 2.5rem;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+input[type="text"]::placeholder {
+    padding-left: 25px;
+}

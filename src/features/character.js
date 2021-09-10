@@ -22,11 +22,12 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 characters: action.payload,
-                error: ''
+                error: '',
+                isLoading: false
             }
         case FETCH_CHARACTERS_FAILURE:
             return {
-                loading: false,
+                isLoading: false,
                 characters: [],
                 error: action.payload
             }
