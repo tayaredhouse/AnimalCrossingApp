@@ -14,11 +14,17 @@ Other technologies used for this project include Redux, Axios, react-spinners pa
 
 More on react-spinners at: https://www.npmjs.com/package/react-spinners
 
+## Viewing the live site
+
+Please view this on Heroku at: https://animal-crossing-app.herokuapp.com/
+
 
 ### API Used
 
 The API used to grab Villager information was used from: http://acnhapi.com/
 
+#### Licenses
 
+All images and character information is licensed and owned by Nintendo.
 
 
