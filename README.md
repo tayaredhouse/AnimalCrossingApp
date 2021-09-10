@@ -6,7 +6,7 @@ It also has a fully functional search bar where you can search by name for your 
 
 Other things that I implemented was creating a store with Redux to keep track of the data, loading state, and error state to make a better user experience.
 
-# Viewing The Live Site
+## Viewing The Live Site
 
 Please view this on Heroku at: https://animal-crossing-app.herokuapp.com/
 
